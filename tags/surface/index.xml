@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>縁側ごろごろ</title>
-    <link>https://Natsu-dev.github.io/</link>
-    <description>Recent content on 縁側ごろごろ</description>
+    <title>Surface on 縁側ごろごろ</title>
+    <link>https://Natsu-dev.github.io/tags/surface/</link>
+    <description>Recent content in Surface on 縁側ごろごろ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://Natsu-dev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://Natsu-dev.github.io/tags/surface/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Surface Pro 2 (ただし中身はUbuntu)</title>
       <link>https://Natsu-dev.github.io/posts/2021-04-05/</link>
@@ -27,28 +27,6 @@ XubuntuでBIOSがGRUBに乗っ取られて、USBメディアから起動でき�
  ホームフォルダー: Super + E 端末を起動: Super + T 設定: Super + I 選択領域のスクショをクリップボードにコピー: shift + Super + S  最後のスクショについては、Windows 10で同様の機能をshift + Windows + Sで使用しているためです。 全然関係ない余談ですがUbuntuではWindowsでいうWindowsキーのことをSuperキーっていうんですね。
 それとキーボードの配列が英語になってると半角/全角キーとかが使えなくてしんどいので日本語にしておきます。
 参考：Ubuntu で日本語キーボードレイアウト - Qiita</description>
-    </item>
-    
-    <item>
-      <title>GitHub PagesとHugoを使ってブログを作ってみた</title>
-      <link>https://Natsu-dev.github.io/posts/2021-02-28/</link>
-      <pubDate>Sun, 28 Feb 2021 00:00:00 +0900</pubDate>
-      
-      <guid>https://Natsu-dev.github.io/posts/2021-02-28/</guid>
-      <description>はじめまして。Natsuです、ふぉって名前も使ってます。 ここではだいたい趣味のことを書くと思います。 最初なので、個人的なメモ書きも兼ねてこのブログの作り方をまとめておきます。
-GitHub Pagesでブログが作れるらしい 何となしにネットの海をサーフィンしていると、ふと立ち寄ったブログのURLが~.github.ioでした。
-へぇ～GitHub Pagesでブログが作れるんだ～。わたしもやりたい。
-ググってみると、静的サイトジェネレータを使うとMarkdownで書いたファイルを元にWebページを生成できるみたいです。 『GitHub Pages ブログ』と検索したところ静的サイトジェネレータの名前がいくつか出てきたのですが、なんとなくおもしろそうだったのでHugoを使ってみることにします。
-Hugoを使って実際に作ってみる Hugoの導入 まずHugo Extendedをインストールするのですが、Windowsでは例えばChocolateyなどのパッケージマネージャを使うので、まずはそちらをインストールしておきます。
-chocoコマンドが使えるようになったら、Hugo Extendedをインストールします。
-GitHubの準備とThemeの導入 続いてブログ作成のための環境構築をします。以下の記事を参考にさせて頂きました。
-3分で GitHub にブログを作る (Hugo + GitHub Pages) - Qiita
-HugoではThemeと呼ばれるページレイアウトのテンプレートのようなものがHugo Themesで色々公開されていて、 『Hugo Future Imperfect』というテーマが個人的にとても好きなので導入します。
-先ほどの環境構築の記事ではconfig.tomlを編集するようになっています。 themes/hugo-future-imperfect/exampleSiteにあるconfig.tomlをコピーして、ブログ本体のディレクトリに元々あるconfig.tomlに上書きしておきます。
-以降、themesディレクトリ以下のファイルを変更する際は全てブログ本体の同名ディレクトリにコピーしたものを使用しています。
-config.tomlをカスタマイズする 自分のブログに合わせてconfig.tomlを編集していきます。ここではブログのタイトルや説明、 自分のSNSアカウントへのリンクや記事の共有ボタンの有効化などブログの基本的な要素を編集できるようになっているので、好きなようにカスタマイズします。
-特に変わったことはしていませんが、1つあるとすればアイコンは私がGitHubで使っているものをURLで参照して持ってくるようにしています。 https://github.com/&amp;lt;USERNAME&amp;gt;.pngとするとアイコン画像を取得できます。 画像が思ったよりでかかったのでサイズは100pxとしておきます。ここまでの設定でconfig.tomlは以下のようになります。
-# This appears at the top of the sidebar above params.intro.header. # A width of less than 100px is recommended from a design perspective. [params.intro.pic] src = &amp;#34;https://github.</description>
     </item>
     
   </channel>
