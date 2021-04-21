@@ -6,20 +6,11 @@
     <description>Recent content in Tags on 縁側ごろごろ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://Natsu-dev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Surface</title>
-      <link>https://Natsu-dev.github.io/tags/surface/</link>
-      <pubDate>Mon, 05 Apr 2021 00:00:00 +0900</pubDate>
-      
-      <guid>https://Natsu-dev.github.io/tags/surface/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://Natsu-dev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ubuntu</title>
       <link>https://Natsu-dev.github.io/tags/ubuntu/</link>
-      <pubDate>Mon, 05 Apr 2021 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0900</pubDate>
       
       <guid>https://Natsu-dev.github.io/tags/ubuntu/</guid>
       <description></description>
@@ -28,9 +19,27 @@
     <item>
       <title>Windows</title>
       <link>https://Natsu-dev.github.io/tags/windows/</link>
-      <pubDate>Mon, 05 Apr 2021 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0900</pubDate>
       
       <guid>https://Natsu-dev.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>キャプチャーボード</title>
+      <link>https://Natsu-dev.github.io/tags/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://Natsu-dev.github.io/tags/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surface</title>
+      <link>https://Natsu-dev.github.io/tags/surface/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://Natsu-dev.github.io/tags/surface/</guid>
       <description></description>
     </item>
     

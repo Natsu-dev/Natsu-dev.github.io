@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ガジェット on 縁側ごろごろ</title>
-    <link>https://Natsu-dev.github.io/categories/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</link>
-    <description>Recent content in ガジェット on 縁側ごろごろ</description>
+    <title>PC on 縁側ごろごろ</title>
+    <link>https://Natsu-dev.github.io/categories/pc/</link>
+    <description>Recent content in PC on 縁側ごろごろ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://Natsu-dev.github.io/categories/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://Natsu-dev.github.io/categories/pc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CUIの画面で何とかしてスクリーンショットを撮りたい</title>
       <link>https://Natsu-dev.github.io/posts/2021-04-22/</link>
@@ -33,28 +33,6 @@
 余談 デスクトップの背景の絵は知人が描いたものです。めっちゃかわいい。良かったらぜひフォローしてください（ダイマ）。
 フランちゃん！ pic.twitter.com/qVBN0hsa1S
 &amp;mdash; 時菓 (@tokonomi0) January 31, 2019  </description>
-    </item>
-    
-    <item>
-      <title>Surface Pro 2 (ただし中身はUbuntu)</title>
-      <link>https://Natsu-dev.github.io/posts/2021-04-05/</link>
-      <pubDate>Mon, 05 Apr 2021 00:00:00 +0900</pubDate>
-      
-      <guid>https://Natsu-dev.github.io/posts/2021-04-05/</guid>
-      <description>古いSurfaceってLinuxブートできるんですよ そんな意味の分からない話をされても「？？？」という感情でいっぱいになるのですが、ある私の友人はよくこの話をします。 Microsoft製のPCなんだから当然元々入ってるWindowsしか動かないもんだと完全に思い込んでいたのですが、それは最近のSurfaceの話であって古いものならそうとも限らない模様。
-彼は生粋のSurfaceマニアで、Surface ProシリーズをRTから現行の7+まで合計7台所有しているほどの筋金入りです。 そんな有り余るSurfaceにあんなことやこんなことを色々施してはムフフとしている彼ですが、つい先日のこと、 数台所有している（←ここが既に意味不明）Surface Pro 2のうち1台のタッチパネルの一部が反応しなくなってしまったようです。
-もう使わないけどタッチパネル以外は正常なので良かったらどうですか、と声を掛けて頂いて私が譲り受けることになりました。
-ところでOSどうする？ 受け取る数日前あたりにいきなりこう訊かれたのでびっくりしました。
-彼がSurfaceに色々なインストールして楽しんでいる様子はよく見ていたし、 私はといえば諸事情あってLinux系OSの動くPCが欲しいと思ってそういう相談をしていたのもあったし、 まぁ自然っちゃ自然な流れだったのかもしれないけど。
-それはそうとしても、Surfaceを譲り渡すにあたってWindows以外のOSを選択肢に持ち出すのは面白すぎるでしょ。
-最初はXubuntuをお願いしたのですが、これが何だか調子があまり良くなかったりタブレット端末向きではなかったりしたので、後日無印のUbuntuに入れ替えてもらいました。
-初めてのUbuntu 何故かUSBブートができなかったのでめっちゃ大変でしたが、無事にUbuntu 20.04.2 LTSのインストールが完了。
-XubuntuでBIOSがGRUBに乗っ取られて、USBメディアから起動できなくなっていたSurface Pro 2、無事救出できました！ pic.twitter.com/1gS87HiAq5
-&amp;mdash; shige7 (@windows7_love) March 30, 2021  早速ですが背景はYouTubeにアップした自作曲の動画から持ってきて変更しています。
-こんな感じで、Surfaceという文字列とUbuntuという文字列が共存するメッチャ面白い画が撮れます。もう楽しい。   [設定]→[このシステムについて]から端末の情報やOSのバージョンなどを確認できますがここだけ見ても最高ですね。楽しい。   カスタマイズ キーボードショートカットをいくつか設定、変更しています。
- ホームフォルダー: Super + E 端末を起動: Super + T 設定: Super + I 選択領域のスクショをクリップボードにコピー: shift + Super + S  最後のスクショについては、Windows 10で同様の機能をshift + Windows + Sで使用しているためです。 全然関係ない余談ですがUbuntuではWindowsでいうWindowsキーのことをSuperキーっていうんですね。
-それとキーボードの配列が英語になってると半角/全角キーとかが使えなくてしんどいので日本語にしておきます。
-参考：Ubuntu で日本語キーボードレイアウト - Qiita</description>
     </item>
     
   </channel>

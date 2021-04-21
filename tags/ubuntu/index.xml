@@ -6,7 +6,35 @@
     <description>Recent content in ubuntu on 縁側ごろごろ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://Natsu-dev.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://Natsu-dev.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CUIの画面で何とかしてスクリーンショットを撮りたい</title>
+      <link>https://Natsu-dev.github.io/posts/2021-04-22/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://Natsu-dev.github.io/posts/2021-04-22/</guid>
+      <description>CUIの画面を直撮りするのはなんだかなぁ たぶんまた今度記事にするとは思うのですが、ちょっとした興味からUbuntu Serverというサーバ用のOSを使ってみています。 普段我々が使っているWindows 10のような、デスクトップ画面とかマウスポインタとかアプリアイコンとかがあるGUIと呼ばれる見た目とは異なって、 基本的にはこういったサーバ用のOSではコマンド入力で操作を行うCUIという見た目のものが使われています。
+わかりやすく言うと、Windowsでコマンドプロンプトというアプリを実行してもらえば出てくるような、黒地に白い文字がつらつらと並んでいる感じで動いています。
+  操作はキーボードによる文字の入力なので画面には文字しか表示されず、普段のノリでPrintScreenキーを押してそのまま貼り付け！というわけにはいかないのです。残念。 ですがせっかくこうやって普段やってることをブログにしているからには、何とかしてこのUbuntu Serverの画面を撮影したいというものです。
+一番簡単なのは画面をスマホのカメラで撮影することなのですが、もっと文字がちゃんと読めるぐらい綺麗に撮影できないものか……というのが目下の悩みだったわけです。
+放置されていたキャプチャーボードの出番 そのとき、私に電流走る――――。
+キャプチャーボードというものがあります。ゲームの画面をPC上に映すことができるという優れもので、例えばゲーム実況者がゲームの収録に使うときなんかに登場する装置です。
+実は今から1年前、ポケモン剣盾にドハマりしていた頃にDiscordで友人に画面を見せながら遊ぼうと考えてそのキャプチャーボードを買っていたのですが、 買ってすぐに音ゲーの開発を初めて以来サッパリSwitchを触る時間がなってしまい、そのまま飽きが来たことで結果としてほとんど出番のないままに長い眠りにつくことになったという悲しいものです。
+    マジで勿体ない買い物だったかなぁと普通にガッツリ後悔していたのですが、1年以上の時を経て、ある妙案を思いつきます。
+　……これ、HDMI出力なら何でもWindows上に表示できるっぽいし、じゃあ当然CUIの画面でもイケるよな………？
+　配線して動かしてみる ということで、Ubuntu Serverを実行するRaspberry PiのMini HDMIから出力される映像をそのままキャプチャーボードのin側に送り、 キャプチャーボードをUSBでSurface Pro 6（これはWindows 10が動いている）に接続。
+  Windows上でキャプチャーボードの映像を表示するアプリを起動して、Raspberry Piの電源をON。
+　…………
+　…………
+　！！！！！！！！！！！！！！！！
+  出るやんけ！！！！！！！！！！！
+　  UIのカメラマークを押すとビットマップ形式でキャプチャしてくれるのですが、こんな感じで画質も良好。 lsしたときのディレクトリのような青色の文字が若干潰れ気味でしたが、ブログに載せるには十分の画質でした。最高。
+結論 キャプチャボードを使えばCUIの画面もキャプチャできることがわかりました、満足。 ということでUbuntu Serverを使った楽しいことをやる予定なので、その話はまた今度にでも。
+余談 デスクトップの背景の絵は知人が描いたものです。めっちゃかわいい。良かったらぜひフォローしてください（ダイマ）。
+フランちゃん！ pic.twitter.com/qVBN0hsa1S
+&amp;mdash; 時菓 (@tokonomi0) January 31, 2019  </description>
+    </item>
+    
     <item>
       <title>Surface Pro 2 (ただし中身はUbuntu)</title>
       <link>https://Natsu-dev.github.io/posts/2021-04-05/</link>
