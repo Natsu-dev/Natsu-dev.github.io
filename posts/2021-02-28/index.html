@@ -107,15 +107,13 @@
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 	ga('create', 'G-73YC43M1DC', 'auto');
 	
 	ga('send', 'pageview');
 }
 </script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
     </head>
     <body>
@@ -595,7 +593,7 @@ Stylesに表示されている項目のうち<code>font-family</code>の部分�
 </code></pre></div><h1 id="見出しの調整">見出しの調整</h1>
 <p>見出しをより目立たせるためにデザインの調整をします。デフォルトでは<code>h3</code>以降見出しのフォントサイズが本文より小さくなってしまうのと、見出しに何も装飾がないのは記事本文と判別がつきにくいのとで、デザインをちょっとだけ変えてみます。
 <figure>
-    <img src="1.heading_default.jpg"/> 
+    <img src="https://Natsu-dev.github.io/posts/2021-02-28/1.heading_default.jpg"/> 
 </figure>
 </p>
 <h2 id="デザインを変更する">デザインを変更する</h2>
@@ -638,13 +636,13 @@ Stylesに表示されている項目のうち<code>font-family</code>の部分�
 }
 </code></pre></div><p>こんな感じになりました。わかりやすくなったかも？
 <figure>
-    <img src="2.heading_modified.jpg"/> 
+    <img src="https://Natsu-dev.github.io/posts/2021-02-28/2.heading_modified.jpg"/> 
 </figure>
 </p>
 <h2 id="デザイン変更の弊害を直す">デザイン変更の弊害を直す</h2>
 <p>見出しのデザインを変更したところサイドバーでも見出しが使われていたらしく、サイトタイトルのあたりが特に違和感マシマシになってしまいました。
 <figure>
-    <img src="3.bar.jpg"/> 
+    <img src="https://Natsu-dev.github.io/posts/2021-02-28/3.bar.jpg"/> 
 </figure>
 </p>
 <p>それ以外の部分は案外なじんでいるのですが、タイトルの左のほうに刻み海苔が貼り付いているのだけは流石に変なので直します。</p>
@@ -658,7 +656,7 @@ Stylesに表示されている項目のうち<code>font-family</code>の部分�
 	<span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span><span style="color:#66d9ef">em</span> <span style="color:#ae81ff">0</span><span style="color:#66d9ef">em</span>; <span style="color:#75715e">/* 余白も0にしておく */</span>
 }
 </code></pre></div><p><figure>
-    <img src="4.bar_gone.jpg"/> 
+    <img src="https://Natsu-dev.github.io/posts/2021-02-28/4.bar_gone.jpg"/> 
 </figure>
 
 ちゃんと消えていますね。まんぞく。</p>

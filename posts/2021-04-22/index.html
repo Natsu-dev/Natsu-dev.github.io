@@ -107,15 +107,13 @@
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 	ga('create', 'G-73YC43M1DC', 'auto');
 	
 	ga('send', 'pageview');
 }
 </script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
     </head>
     <body>
@@ -536,7 +534,7 @@ if (!doNotTrack) {
 基本的にはこういったサーバ用のOSではコマンド入力で操作を行うCUIという見た目のものが使われています。</p>
 <p>わかりやすく言うと、Windowsでコマンドプロンプトというアプリを実行してもらえば出てくるような、黒地に白い文字がつらつらと並んでいる感じで動いています。</p>
 <figure>
-    <img src="0.jpg"/> 
+    <img src="https://Natsu-dev.github.io/posts/2021-04-22/0.jpg"/> 
 </figure>
 
 <p>操作はキーボードによる文字の入力なので画面には文字しか表示されず、普段のノリでPrintScreenキーを押してそのまま貼り付け！というわけにはいかないのです。残念。
@@ -548,11 +546,11 @@ if (!doNotTrack) {
 <p>実は今から1年前、ポケモン剣盾にドハマりしていた頃にDiscordで友人に画面を見せながら遊ぼうと考えてそのキャプチャーボードを買っていたのですが、
 買ってすぐに音ゲーの開発を初めて以来サッパリSwitchを触る時間がなってしまい、そのまま飽きが来たことで結果としてほとんど出番のないままに長い眠りにつくことになったという悲しいものです。</p>
 <figure>
-    <img src="1.jpg"/> 
+    <img src="https://Natsu-dev.github.io/posts/2021-04-22/1.jpg"/> 
 </figure>
 
 <figure>
-    <img src="2.jpg"/> 
+    <img src="https://Natsu-dev.github.io/posts/2021-04-22/2.jpg"/> 
 </figure>
 
 <p>マジで勿体ない買い物だったかなぁと普通にガッツリ後悔していたのですが、1年以上の時を経て、ある妙案を思いつきます。</p>
@@ -563,7 +561,7 @@ if (!doNotTrack) {
 <p>ということで、Ubuntu Serverを実行するRaspberry PiのMini HDMIから出力される映像をそのままキャプチャーボードのin側に送り、
 キャプチャーボードをUSBでSurface Pro 6（これはWindows 10が動いている）に接続。</p>
 <figure>
-    <img src="3.jpg"/> 
+    <img src="https://Natsu-dev.github.io/posts/2021-04-22/3.jpg"/> 
 </figure>
 
 <p>Windows上でキャプチャーボードの映像を表示するアプリを起動して、Raspberry Piの電源をON。</p>
@@ -574,14 +572,14 @@ if (!doNotTrack) {
 <p>　</p>
 <p>！！！！！！！！！！！！！！！！</p>
 <figure>
-    <img src="4.jpg"/> 
+    <img src="https://Natsu-dev.github.io/posts/2021-04-22/4.jpg"/> 
 </figure>
 
 <p>出るやんけ！！！！！！！！！！！</p>
 <p>　
 　</p>
 <figure>
-    <img src="5.jpg"/> 
+    <img src="https://Natsu-dev.github.io/posts/2021-04-22/5.jpg"/> 
 </figure>
 
 <p>UIのカメラマークを押すとビットマップ形式でキャプチャしてくれるのですが、こんな感じで画質も良好。
