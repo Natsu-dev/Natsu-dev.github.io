@@ -36,7 +36,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.80.0" />
+        <meta name="generator" content="Hugo 0.83.1" />
         
 
 
@@ -47,7 +47,9 @@
             <meta name="description" content="このページを作った方法のまとめ">
         
 
-        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://Natsu-dev.github.io/static/images/icon.jpg"/>
+
 <meta name="twitter:title" content="GitHub PagesとHugoを使ってブログを作ってみた"/>
 <meta name="twitter:description" content="このページを作った方法のまとめ"/>
 <meta name="twitter:site" content="@p_phoric"/>
@@ -55,24 +57,20 @@
         <meta property="og:title" content="GitHub PagesとHugoを使ってブログを作ってみた" />
 <meta property="og:description" content="このページを作った方法のまとめ" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://Natsu-dev.github.io/posts/2021-02-28/" />
-<meta property="article:published_time" content="2021-02-28T00:00:00+09:00" />
-<meta property="article:modified_time" content="2021-02-28T00:00:00+09:00" />
+<meta property="og:url" content="https://Natsu-dev.github.io/posts/2021-02-28/" /><meta property="og:image" content="https://Natsu-dev.github.io/static/images/icon.jpg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-02-28T00:00:00&#43;09:00" />
+<meta property="article:modified_time" content="2021-02-28T00:00:00&#43;09:00" />
 
-        <meta property="og:image" content="https://Natsu-dev.github.io//images/logo.png">
-        <meta property="og:image:type" content="image/png">
+
+        <meta property="og:image" content="https://Natsu-dev.github.io//images/logo.jpg">
+        <meta property="og:image:type" content="image/jpg">
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
         <meta itemprop="name" content="GitHub PagesとHugoを使ってブログを作ってみた">
-<meta itemprop="description" content="このページを作った方法のまとめ">
-<meta itemprop="datePublished" content="2021-02-28T00:00:00+09:00" />
-<meta itemprop="dateModified" content="2021-02-28T00:00:00+09:00" />
-<meta itemprop="wordCount" content="285">
-
-
-
+<meta itemprop="description" content="このページを作った方法のまとめ"><meta itemprop="datePublished" content="2021-02-28T00:00:00&#43;09:00" />
+<meta itemprop="dateModified" content="2021-02-28T00:00:00&#43;09:00" />
+<meta itemprop="wordCount" content="285"><meta itemprop="image" content="https://Natsu-dev.github.io/static/images/icon.jpg"/>
 <meta itemprop="keywords" content="Hugo,GitHub,GitHub Pages,CSS," />
-
         
 
         
@@ -595,8 +593,7 @@ Stylesに表示されている項目のうち<code>font-family</code>の部分�
 }
 </code></pre></div><h1 id="見出しの調整">見出しの調整</h1>
 <p>見出しをより目立たせるためにデザインの調整をします。デフォルトでは<code>h3</code>以降見出しのフォントサイズが本文より小さくなってしまうのと、見出しに何も装飾がないのは記事本文と判別がつきにくいのとで、デザインをちょっとだけ変えてみます。
-<figure>
-    <img src="https://Natsu-dev.github.io/posts/2021-02-28/1.heading_default.jpg"/> 
+<figure><img src="https://Natsu-dev.github.io/posts/2021-02-28/1.heading_default.jpg"/>
 </figure>
 </p>
 <h2 id="デザインを変更する">デザインを変更する</h2>
@@ -638,14 +635,12 @@ Stylesに表示されている項目のうち<code>font-family</code>の部分�
 	<span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0.1</span><span style="color:#66d9ef">em</span> <span style="color:#ae81ff">0.5</span><span style="color:#66d9ef">em</span>;
 }
 </code></pre></div><p>こんな感じになりました。わかりやすくなったかも？
-<figure>
-    <img src="https://Natsu-dev.github.io/posts/2021-02-28/2.heading_modified.jpg"/> 
+<figure><img src="https://Natsu-dev.github.io/posts/2021-02-28/2.heading_modified.jpg"/>
 </figure>
 </p>
 <h2 id="デザイン変更の弊害を直す">デザイン変更の弊害を直す</h2>
 <p>見出しのデザインを変更したところサイドバーでも見出しが使われていたらしく、サイトタイトルのあたりが特に違和感マシマシになってしまいました。
-<figure>
-    <img src="https://Natsu-dev.github.io/posts/2021-02-28/3.bar.jpg"/> 
+<figure><img src="https://Natsu-dev.github.io/posts/2021-02-28/3.bar.jpg"/>
 </figure>
 </p>
 <p>それ以外の部分は案外なじんでいるのですが、タイトルの左のほうに刻み海苔が貼り付いているのだけは流石に変なので直します。</p>
@@ -658,8 +653,7 @@ Stylesに表示されている項目のうち<code>font-family</code>の部分�
 	<span style="color:#66d9ef">border-left</span>: <span style="color:#66d9ef">solid</span> <span style="color:#ae81ff">0</span><span style="color:#66d9ef">px</span> <span style="color:#ae81ff">#FFFFFF</span>; <span style="color:#75715e">/* 見出しに線入れたらタイトルにも出ちゃったので隠す */</span>
 	<span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span><span style="color:#66d9ef">em</span> <span style="color:#ae81ff">0</span><span style="color:#66d9ef">em</span>; <span style="color:#75715e">/* 余白も0にしておく */</span>
 }
-</code></pre></div><p><figure>
-    <img src="https://Natsu-dev.github.io/posts/2021-02-28/4.bar_gone.jpg"/> 
+</code></pre></div><p><figure><img src="https://Natsu-dev.github.io/posts/2021-02-28/4.bar_gone.jpg"/>
 </figure>
 
 ちゃんと消えていますね。まんぞく。</p>
@@ -733,7 +727,7 @@ Stylesに表示されている項目のうち<code>font-family</code>の部分�
     
     
       
-        <a href='https://Natsu-dev.github.io/'><img src="https://github.com/natsu-dev.png" class="intro-circle" width="100" alt="" /></a>
+        <a href='https://Natsu-dev.github.io/'><img src="https://Natsu-dev.github.io/images/logo.jpg" class="intro-circle" width="100" alt="" /></a>
       
     
     
@@ -794,8 +788,6 @@ Stylesに表示されている項目のうち<code>font-family</code>の部分�
 
 
 
-
-  <li><a href="//youtube.com/channel/UCJGZZ9G_kVG-VeMuLoZnMaQ" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
 
 
 
@@ -988,39 +980,6 @@ Stylesに表示されている項目のうち<code>font-family</code>の部分�
         
 
         
-        <p>
-          <article>
-            <header>
-              
-                <a href="https://Natsu-dev.github.io/categories/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/">ガジェット</a>
-                <span style="float:right;">2</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="https://Natsu-dev.github.io/categories/pc/">pc</a>
-                <span style="float:right;">1</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="https://Natsu-dev.github.io/categories/%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E7%99%BA/">ブログ開発</a>
-                <span style="float:right;">1</span>
-              
-            </header>
-          </article>
-        </p>
-        
     </section>
   
   
@@ -1088,8 +1047,6 @@ Stylesに表示されている項目のうち<code>font-family</code>の部分�
 
 
 
-
-  <li><a href="//youtube.com/channel/UCJGZZ9G_kVG-VeMuLoZnMaQ" target="_blank" title="YouTube" class="fa fa-youtube"></a></li>
 
 
 
