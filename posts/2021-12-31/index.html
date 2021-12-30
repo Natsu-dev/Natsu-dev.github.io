@@ -24,7 +24,7 @@
         "datePublished": "2021-12-31 00:04:00 \u002b0900 JST",
         "dateModified" : "2021-12-31 00:04:00 \u002b0900 JST",
         "url" : "https:\/\/Natsu-dev.github.io\/posts\/2021-12-31\/",
-        "wordCount" : "239",
+        "wordCount" : "241",
         "keywords" : [ "Raspberry Pi","Minecraft","Blog" ]
     }
     </script>
@@ -67,7 +67,7 @@
 <meta itemprop="description" content="Raspberry Pi の限界に挑戦するわよ">
 <meta itemprop="datePublished" content="2021-12-31T00:04:00+09:00" />
 <meta itemprop="dateModified" content="2021-12-31T00:04:00+09:00" />
-<meta itemprop="wordCount" content="239">
+<meta itemprop="wordCount" content="241">
 
 
 
@@ -395,8 +395,8 @@
                                 <h3><a href="https://Natsu-dev.github.io/posts/2021-02-28/">GitHub PagesとHugoを使ってブログを作ってみた</a></h3>
                                 
                                 <time class="published" datetime=
-                                    '2021-02-28'>
-                                    February 28, 2021</time>
+                                    '2021-12-31'>
+                                    December 31, 2021</time>
                             </header>
                             
     
@@ -598,9 +598,9 @@
 <p>ということで、今回は導入が比較的簡単でラズパイに最適化されている <strong>Raspberry Pi OS Lite</strong> を導入することにします。適当な Micro SD カードに Windows から Raspberry Pi Imager という公式のツールで OS を焼く感じです。儂にデスクトップ環境は必要ないわい！！！という強い意志のもと、Lite 版を選択している次第です。全身全霊 CLI 操作の翁。</p>
 <h4 id="サーバーアプリケーションの検討">サーバーアプリケーションの検討</h4>
 <p>サーバーアプリケーションには<a href="https://www.minecraft.net/ja-jp/download/server">公式サイトから配布されているアプリケーション</a>以外にも、いくつかの亜種的なものが存在します。代表的なものとして <a href="https://bukkit.org">Bukkit</a> や <a href="https://www.spigotmc.org">Spigot</a> と呼ばれるものがありますが、今回は<strong>比較的軽量であるという <a href="https://papermc.io">Paper</a> を導入</strong>してみようと思います。</p>
-<p>この Paper ですが、Spigot で使えるプラグインは同様に使えるため元々 Spigot で立てていたサーバーからの移行も可能なようです。また開発コミュニティも活発で、最近大変な問題になっている Log4J 関連の脆弱性への対応も素早い印象です。</p>
+<p>この Paper ですが、Spigot の派生であるため Spigot で使えるプラグインは同様に使えるようで、元々 Spigot で立てていたサーバーからの移行も可能らしいです。また開発コミュニティも活発で、最近大変な問題になっている Log4J 関連の脆弱性への対応も素早い印象です。そういったところから、個人的に扱いやすそうだと感じたため選択しました。</p>
 <h3 id="-micro-sd-カードが起動ドライブのため読み書きが遅くまた耐久性が心配">② Micro SD カードが起動ドライブのため読み書きが遅く、また耐久性が心配</h3>
-<p>マイクラサーバーって結構ドライブへの読み書きが多いと思うので、流石にそういった部分を読み書きが光速ではない Micro SD カードに任せるというのはしんどそうです。なのでこれに関しては追加のお買い物をして力ずくで解決していくのですが、具体的にはラズパイを SSD ブート化して Micro SD を使わない構築にしようという形になります。</p>
+<p>マイクラサーバーって結構ドライブへの読み書きが多いと思うので、流石にそういった部分を読み書きが高速ではない Micro SD カードに任せるというのはしんどそうです。なのでこれに関しては追加のお買い物をして力ずくで解決していくのですが、具体的にはラズパイを SSD ブート化して Micro SD を使わない構築にしようという形になります。</p>
 <p>私の場合は手元に余っている 240GB の SATA SSD があったのでこいつを使おうと思います。中古 PC にくっついてたやつなので型番とかはわかりません。</p>
 <figure>
     <img src="https://Natsu-dev.github.io/posts/2021-12-31/ssd.jpg"/> 
