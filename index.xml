@@ -6,7 +6,32 @@
     <description>Recent content on 縁側ごろごろ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 31 Dec 2021 00:04:00 +0900</lastBuildDate><atom:link href="https://Natsu-dev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 May 2022 00:04:00 +0900</lastBuildDate><atom:link href="https://Natsu-dev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ThinkPad デビューしました [ThinkPad X270]</title>
+      <link>https://Natsu-dev.github.io/posts/2022-05-07/</link>
+      <pubDate>Sat, 07 May 2022 00:04:00 +0900</pubDate>
+      
+      <guid>https://Natsu-dev.github.io/posts/2022-05-07/</guid>
+      <description>GWも終盤（あるいはもう終わった方も、ｳｯ…）ですが、いかがお過ごしでしょうか。
+私ですが、Amazon Primeで『コードギアス 反逆のルルーシュ』を観ていただけなのに、気が付いたらGWが終わってしまっていました。 何故なんでしょうか。今年はGWが長いと耳にしていたのですが……
+……もしかしてギアスかけられてます？　私って。
+中古ThinkPad X270を購入 最近ヤフオクを始めました。 とはいっても、色々と気になっているノートPCやパーツを眺めては、中古相場はこんな感じか～と思いつつ勉強しているところなのですが。
+物は試しということで、ThinkPad X270を落札してみました。 落札価格は2万円弱です。
+外装はかなり綺麗で傷も少なく、画面にも色ムラはなく良い状態でした。
+    入出力ポートはこんな感じです。
+   オーディオ 3.5mm 4極 コネクタ USB 3.0 Type-A x2 USB 3.1 Type-C HDMI ポート メディアカードスロット (MMC、SD、SDXC、SDHC) マイクロ SIM トレイ 有線LAN(RJ-45)ポート  参考→ ThinkPad X270　製品仕様書 - Lenovo
+しかし、キーボードにテカりがあること、搭載されている起動ドライブがHDDだったことの2点が気になるので、分解してこの2つを換装してみようと思います。 いわゆる改造というやつですね。 独断と偏見で決める 「ThinkPadを購入したら最初にやってみたいことランキング」堂々の1位です。
+換装作業 やることはシンプルで、とりあえず背面のカバーをパカッと開けて各種パーツを交換するって感じです。
+と、言い切ってしまうとシンプルですが、実際にはカバーを外すところから難易度が高いのがX270というヤツらしいです。 それ以前のThinkPadはそうでもないみたいなのですが、このあたり(Intel 第7世代？)からは少し難しくなっているようです。
+ちなみにですが、分解前にバッテリーを外しておきましょうというのがノートPC分解メンテの基本ですが、ThinkPad X270は裏面に見えているバッテリーを外すだけではダメっぽいです。
+バッテリーが外側と内側にそれぞれあるのですが、内側は分解しないと外しようがないのでBIOSから内蔵バッテリーを無効化しておきます。 無効化するとThinkPadくんは完全に電源が落ちて沈黙しますが、ACアダプターに接続すればバッテリーは再度有効化されます。
+ということで交換用の新品SSDと中古キーボードを仕入れたので分解して交換します。
+SSDはCrucial製のBX500というSATA3 480GBのものです。とりあえず500GB付近で一番安そうだったので……
+  ThinkPadくんを裏返すとこんな感じなのですが、上あたりに見えているバッテリーを外して、ネジを緩めます。
+  背面パネルとネジは一体になっているので抜けません。 緩めたらそのままバックパネルを割らないように剥がしていきます。</description>
+    </item>
+    
     <item>
       <title>Raspberry Pi 4B でちゃんと動くMinecraft Serverを作りたい</title>
       <link>https://Natsu-dev.github.io/posts/2021-12-31/</link>
@@ -78,8 +103,7 @@ https://t.co/OC0yCngn6y pic.twitter.com/zedSQRyPIG
 　  UIのカメラマークを押すとビットマップ形式でキャプチャしてくれるのですが、こんな感じで画質も良好。 lsしたときのディレクトリのような青色の文字が若干潰れ気味でしたが、ブログに載せるには十分の画質でした。最高。
 結論 キャプチャボードを使えばCUIの画面もキャプチャできることがわかりました、満足。 ということでUbuntu Serverを使った楽しいことをやる予定なので、その話はまた今度にでも。
 余談 デスクトップの背景の絵は知人が描いたものです。めっちゃかわいい。良かったらぜひフォローしてください（ダイマ）。
-フランちゃん！ pic.twitter.com/qVBN0hsa1S
-&amp;mdash; 雲粥＊くろば (@kumokayu) January 31, 2019  </description>
+→ https://twitter.com/kumokayu</description>
     </item>
     
     <item>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ThinkPad on 縁側ごろごろ</title>
+    <link>https://Natsu-dev.github.io/tags/thinkpad/</link>
+    <description>Recent content in ThinkPad on 縁側ごろごろ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 07 May 2022 00:04:00 +0900</lastBuildDate><atom:link href="https://Natsu-dev.github.io/tags/thinkpad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ThinkPad デビューしました [ThinkPad X270]</title>
+      <link>https://Natsu-dev.github.io/posts/2022-05-07/</link>
+      <pubDate>Sat, 07 May 2022 00:04:00 +0900</pubDate>
+      
+      <guid>https://Natsu-dev.github.io/posts/2022-05-07/</guid>
+      <description>GWも終盤（あるいはもう終わった方も、ｳｯ…）ですが、いかがお過ごしでしょうか。
+私ですが、Amazon Primeで『コードギアス 反逆のルルーシュ』を観ていただけなのに、気が付いたらGWが終わってしまっていました。 何故なんでしょうか。今年はGWが長いと耳にしていたのですが……
+……もしかしてギアスかけられてます？　私って。
+中古ThinkPad X270を購入 最近ヤフオクを始めました。 とはいっても、色々と気になっているノートPCやパーツを眺めては、中古相場はこんな感じか～と思いつつ勉強しているところなのですが。
+物は試しということで、ThinkPad X270を落札してみました。 落札価格は2万円弱です。
+外装はかなり綺麗で傷も少なく、画面にも色ムラはなく良い状態でした。
+    入出力ポートはこんな感じです。
+   オーディオ 3.5mm 4極 コネクタ USB 3.0 Type-A x2 USB 3.1 Type-C HDMI ポート メディアカードスロット (MMC、SD、SDXC、SDHC) マイクロ SIM トレイ 有線LAN(RJ-45)ポート  参考→ ThinkPad X270　製品仕様書 - Lenovo
+しかし、キーボードにテカりがあること、搭載されている起動ドライブがHDDだったことの2点が気になるので、分解してこの2つを換装してみようと思います。 いわゆる改造というやつですね。 独断と偏見で決める 「ThinkPadを購入したら最初にやってみたいことランキング」堂々の1位です。
+換装作業 やることはシンプルで、とりあえず背面のカバーをパカッと開けて各種パーツを交換するって感じです。
+と、言い切ってしまうとシンプルですが、実際にはカバーを外すところから難易度が高いのがX270というヤツらしいです。 それ以前のThinkPadはそうでもないみたいなのですが、このあたり(Intel 第7世代？)からは少し難しくなっているようです。
+ちなみにですが、分解前にバッテリーを外しておきましょうというのがノートPC分解メンテの基本ですが、ThinkPad X270は裏面に見えているバッテリーを外すだけではダメっぽいです。
+バッテリーが外側と内側にそれぞれあるのですが、内側は分解しないと外しようがないのでBIOSから内蔵バッテリーを無効化しておきます。 無効化するとThinkPadくんは完全に電源が落ちて沈黙しますが、ACアダプターに接続すればバッテリーは再度有効化されます。
+ということで交換用の新品SSDと中古キーボードを仕入れたので分解して交換します。
+SSDはCrucial製のBX500というSATA3 480GBのものです。とりあえず500GB付近で一番安そうだったので……
+  ThinkPadくんを裏返すとこんな感じなのですが、上あたりに見えているバッテリーを外して、ネジを緩めます。
+  背面パネルとネジは一体になっているので抜けません。 緩めたらそのままバックパネルを割らないように剥がしていきます。</description>
+    </item>
+    
+  </channel>
+</rss>
